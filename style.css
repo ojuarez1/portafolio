@@ -1,0 +1,10 @@
+.perfil{
+    margin-top:30px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.descripcion-perfil{
+    width: 50%;
+}
