@@ -5,6 +5,11 @@
     justify-content: space-evenly;
 }
 
+.img-perfil{
+    width:15%;
+    border-radius: 10%;
+}
+
 .descripcion-perfil{
     width: 50%;
 }
