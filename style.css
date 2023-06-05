@@ -2,7 +2,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
-    background-image: url("/img/ola.png");
+    background-image: url("img/ola.png");
     background-repeat: no-repeat;
     background-size: 38%;
 }
@@ -42,5 +42,9 @@ body{
 
     .descripcion-perfil h3{
         font-size:24px;
+    }
+
+    .descripcion-perfil{
+        font-size: 13px;
     }
 }
