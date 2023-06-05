@@ -21,3 +21,26 @@ body{
 .descripcion-perfil{
     width: 50%;
 }
+
+@media(max-width:480px){
+    body {
+            background-size: 100%;
+        }
+    .perfil {
+        display:block;
+        color:white
+    }  
+
+    .img-perfil {
+        float: left;
+        margin-right: 15px;
+    }
+
+    .descripcion-perfil {
+        width: 100%;
+    }
+
+    .descripcion-perfil h3{
+        font-size:24px;
+    }
+}
