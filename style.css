@@ -3,15 +3,15 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;*/
 }
 
 .conteiner{
-    background-image: url("img/ola.png");
+    /*background-image: url("img/ola.png");
     background-repeat: no-repeat;
     background-size: 38%;
-    height: 100vh;
+    height: 100vh;*/
 }
 
 .mt-5{
@@ -19,18 +19,20 @@ body{
     padding: 32px;
 }
 .perfil{
-    padding: 15px;
     display: flex;
-    justify-content: space-evenly;
 }
 
-.img-perfil{
-    width:15%;
+.perfil__imagen{
+    position:relative;
+}
+
+.perfil__imagen-logo{
     border-radius:10%;
-    box-shadow: 10px 10px 30px rgb(8, 8, 8);
+    /*box-shadow: 10px 10px 30px rgb(8, 8, 8);*/
+    width: 80%;
 }
 
-.descripcion-perfil{
+.perfil__descripcion{
     width: 50%;
 }
 
@@ -40,7 +42,8 @@ body{
 
 @media(max-width:480px){
     .conteiner {
-            background-size: 100%;
+        background-size: 100%;
+        height:auto;
     }
 
     .perfil {
