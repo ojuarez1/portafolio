@@ -6,36 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Profile</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
   </head>
 
   <body>
-        <header class="conteiner">
-          
-          <h1 class="text-center mt-5 display-4 text-primary">Bienvenidos a mi perfil!</h1>
-          
-          <div class="perfil">
-            <div class="perfil__imagen">
-              <img class="perfil__imagen-logo" src="img/portada.png" alt="Foto Oscar">
-            </div>
-            <div class="perfil__descripcion">
-              <h3>Mi nombre es: Oscar Juarez Fernandez!</h3>
-              <p>Soy estudiante de Desarrollo Web en el Programa ONE (Oracle Next Education)</p>
+        <header class="principal">
+          <nav class="navegacion">
+            <ul class="navegacion__menu">
+              <li class="menu__item"><a class="menu__item-enlace" href="#inicio">Inicio</a></li>
+              <li class="menu__item"><a class="menu__item-enlace" href="#sobreMi">Sobre mi</a></li>
+              <li class="menu__item"><a class="menu__item-enlace" href="#habilidades">Skills</a></li>
+              <li class="menu__item"><a class="menu__item-enlace" href="#">Hobbies</a></li>
+              <li class="menu__item"><a class="menu__item-enlace" href="#">Formacion</a></li>
+              <li class="menu__item"><a class="menu__item-enlace" href="#">Proyectos</a></li>
+              <li class="menu__item"><a class="menu__item-enlace" href="#">Contacto</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main id="inicio">
+          <section class="portada">
+            <article class="portada__imagen">
+              <div class="portada__imagen-datos">
+                <p class="portada__imagen--miNombre">Hola, mi nombre es</p>
+                <h1 class="portada__imagen--nombre">Oscar Juarez Fernandez!</h1>
+                <p class="portada__imagen--descripcion">Soy formado en Desarrollo Web y actualmente estoy participando del proyecto Oracle ONE en Alura Latam</p>
+              </div>
+            </article>
+            <article class="portada__perfil">
+              <div class="portada__perfil-contenedor">
+                <img class="perfil__imagen-logo" src="img/mifoto.png" alt="Foto Oscar">
+                <h3>Oscar Juarez Fernandez!</h3>
+                <p>Soy un apasionado desarrollador Front-end me dedico a construir paginas Web</p>
+                <div class="portada__social">
+                  <a href="#"><img src="img/linkedin-original.svg"></a>
+                  <a href="#"><img class="portada__social-imagen" src="img/github-original.svg"></a>
+                  <a href="#"><img class="portada__social-imagen" src="img/email.jpg"></a>
+                </div>
+              </div>
+            </article>
+          </section>
+          <section id="sobreMi" class="sobreMi">
+            <div class="sobreMi__detalles">
+              <h2>Sobre mi</h2>
               <p>Actualmente trabajo como Auxiliar Administrativo y busco oportunidad para adquirir experiencia como Programador Web en el area de Front-end</p>
               <p>Busco siempre trabajar en equipo apoyando a todos y transmitiendo mis conocimientos a los demas, me considero alguien dispuesto a alcanzar metas, a superar retos y tengo siempre el deseo de querer aprender cada dia mas.</p>
             </div>
-          </div> 
+          </section>
+          <section class="habilidades">
+            <h2 id="habilidades" class="habilidades__titulo">Habilidades</h2>
+            <p class="habilidades__parrafo">Mis lenguajes, tecnologias, frameworks y herramientas</p>
+            <article class="habilidades__lenguajes">
+              <h3 class="habilidades-titulo">Lenguajes</h3>
+              <div class="habilidades__lenguajes-icons">
+                <img class="habilidades-img" src="img/html5-original.svg" alt="">
+                <img class="habilidades-img" src="img/css3-original.svg" alt="">
+                <img class="habilidades-img" src="img/javascript-original.svg" alt="">
+                <img class="habilidades-img" src="img/markdown-original.svg" alt="">
+              </div>
+            </article>
+            <article class="habilidades__frameHerra">
+              <h3 class="habilidades-titulo">Frameworks y Librerias</h3>
+              <div class="habilidades__librerias-icons">
+                <img class="habilidades-img" src="img/react-original.svg" alt="">
+                <img class="habilidades-img" src="img/bootstrap-original.svg" alt="">
+              </div>
+            </article>
+            <article class="habilidades__frameHerra">
+              <h3 class="habilidades-titulo">Herramientas</h3>
+              <div class="habilidades__herramientas-icons">
+                <img class="habilidades-img" src="img/figma-original.svg" alt="">
+                <img class="habilidades-img" src="img/git-original.svg" alt="">
+              </div>
+            </article>
+        </section>
+        </main>
+        <!--<div class="perfil">
+            
+            <div class="perfil__descripcion">
+              <p>Actualmente trabajo como Auxiliar Administrativo y busco oportunidad para adquirir experiencia como Programador Web en el area de Front-end</p>
+              <p>Busco siempre trabajar en equipo apoyando a todos y transmitiendo mis conocimientos a los demas, me considero alguien dispuesto a alcanzar metas, a superar retos y tengo siempre el deseo de querer aprender cada dia mas.</p>
+            </div>
+          </div> -->
 
-        </header>
-      <div class="habilidades">
-        <h2>Habilidades</h2>
-        <img src="img/html5-original.svg" alt="">
-        <img src="img/css3-original.svg" alt="">
-        <img src="img/javascript-original.svg" alt="">
-        <img src="img/markdown-original.svg" alt="">
-        <img src="img/figma-original.svg" alt="">
-      </div>
+        
+      
   </body>
 </html>
