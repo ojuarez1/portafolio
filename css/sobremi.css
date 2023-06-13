@@ -1,0 +1,24 @@
+.sobreMi {
+    background-color: #e4eaf7;
+
+}
+
+.sobreMi__detalles {
+    width: 50%;
+    padding: 3rem 0;
+}
+
+.sobreMi h2 {
+    display: inline-block;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 5px;
+}
+
+.sobreMi p {
+    padding: 10px 0 10px 0;
+}
+
+.sobreMi__detalles img {
+    width: 200px;
+    padding-top: 1rem;
+}

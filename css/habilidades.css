@@ -1,0 +1,35 @@
+.habilidades {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.titulo {
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 5px;
+}
+
+.habilidades__parrafo {
+    margin: 1.5rem;
+}
+
+.habilidades__frameHerra {
+    width: 100%;
+}
+
+.habilidades-titulo {
+    color: #1d90dd;
+    display: inline-block;
+    border-bottom: 1px solid #1d90dd;
+    padding-bottom: 5px;
+}
+
+.habilidades-img {
+    width: 5%;
+    margin: 1.2rem;
+}

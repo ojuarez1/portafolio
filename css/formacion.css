@@ -1,0 +1,36 @@
+.formacion{
+    background-color: #e4eaf7;
+    padding: 3rem 0;
+}
+
+.formacion-borde{
+    width: 23%;
+    margin: 0 auto 2rem;
+}
+
+.formacion__detalles {
+    width: fit-content;
+    margin: auto;
+}
+
+.formacion__detalles-logo{
+    background-color: #ffffff;
+    width: 25vw;
+    height: 40vh;
+    padding: 0.1px;
+}
+
+.formacion__detalles-logo img{
+    display: block;
+    width: 80%;
+    margin: 50px auto 0;
+}
+
+.formacion__detalles-titulo{
+    font-size: 13px;
+    padding: 0.25rem 0 0.25rem 0;
+}
+
+.formacion__detalles-texto{
+    font-size: 13px;
+}

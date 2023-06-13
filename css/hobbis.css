@@ -1,0 +1,33 @@
+.hobbis{
+    padding: 3rem 0;
+}
+
+.borde__titulo{
+    width: 8%;
+    margin: 0 auto 2rem;
+}
+
+.hobbis__lista{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.hobbis__lista .hobbis__lista-item{
+    background-color: #f8f2f2;
+    width: 12%;
+    height:20vh;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 1rem;
+}
+
+.hobbis__lista-item img{
+    width: 2rem;
+}
+
+.hobbis__lista-item p{
+    font-size: 0.75rem;
+    font-weight: bold;
+}

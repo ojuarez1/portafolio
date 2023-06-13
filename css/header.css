@@ -1,0 +1,35 @@
+.principal {
+    background-color: #00161C;
+    position: sticky;
+    top: 0;
+}
+
+.navegacion {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.navegacion__menu {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    justify-content: space-evenly;
+    padding: 0;
+    font-family: 'playfair display';
+    font-style: italic;
+}
+
+.navegacion .menu__item {
+    list-style: none;
+}
+
+.navegacion .menu__item-enlace {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu__item a:hover {
+    color: #D4AF37;
+    text-decoration: underline;
+}
