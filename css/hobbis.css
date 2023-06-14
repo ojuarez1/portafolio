@@ -3,7 +3,7 @@
 }
 
 .borde__titulo{
-    width: 8%;
+    width: fit-content;
     margin: 0 auto 2rem;
 }
 
@@ -30,4 +30,14 @@
 .hobbis__lista-item p{
     font-size: 0.75rem;
     font-weight: bold;
+}
+
+@media(max-width:468px){
+    .hobbis__lista{
+        flex-wrap: wrap;
+    }
+    .hobbis__lista .hobbis__lista-item {
+        width: 25%;
+        flex-grow: 1;
+    }
 }

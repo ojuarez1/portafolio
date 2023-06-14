@@ -17,3 +17,9 @@
     width: 90%;
     margin: auto;
 }
+
+@media(max-width:468px) {
+    .challengEncriptador {
+        width: 100%;
+    }
+}

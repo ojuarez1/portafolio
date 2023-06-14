@@ -6,7 +6,7 @@
 
 .navegacion {
     height: 10vh;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
 }
 
@@ -18,6 +18,7 @@
     padding: 0;
     font-family: 'playfair display';
     font-style: italic;
+    line-height: 10vh;
 }
 
 .navegacion .menu__item {
@@ -32,4 +33,20 @@
 .menu__item a:hover {
     color: #D4AF37;
     text-decoration: underline;
+}
+
+@media(max-width:468px){
+    .principal{
+        position: static;
+    }
+    .navegacion{
+        height: auto;
+    }
+    .navegacion__menu{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin: auto;
+        width: 100%;
+    }
 }

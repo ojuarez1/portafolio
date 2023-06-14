@@ -16,3 +16,10 @@ body{
     width: 80vw;
     margin: auto;
 }
+
+@media(max-width:468px){
+    .container {
+        width: 90vw;
+        margin: auto;
+    }
+}

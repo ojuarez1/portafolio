@@ -4,7 +4,7 @@
 }
 
 .formacion-borde{
-    width: 23%;
+    width: fit-content;
     margin: 0 auto 2rem;
 }
 
@@ -33,4 +33,10 @@
 
 .formacion__detalles-texto{
     font-size: 13px;
+}
+
+@media(max-width:468px){
+    .formacion__detalles-logo {
+        width: 100%;
+    }
 }

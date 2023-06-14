@@ -1,0 +1,29 @@
+footer{
+    height: 5rem;
+}
+
+.rodapie{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 16px;
+}
+
+.rodapie__copyright {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.portada__social-imagen--fondo{
+    border-radius: 3px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+@media(max-width:468px){
+    .rodapie{
+        flex-direction: column;
+    }
+}
