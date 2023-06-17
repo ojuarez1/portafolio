@@ -3,17 +3,67 @@
     margin: 0 auto 2rem;
 }
 
-.challengEncriptador{
+.proyectos__propios{
+    padding-bottom: 2rem;
+}
+
+.proyectos__propios-encriptador, .proyectos__propios-alurageek{
     width: 60%;
     background-color: #f8f2f2;
 }
 
-.challengEncriptador__img{
+.proyectos__propios-encriptador--img{
     display: block;
     width: 90%;
     margin: auto;
 }
 
+.proyectos__propios-contenedor{
+    display: flex;
+}
+
+.proyectos__propios-detalles{
+    align-self: center;
+    padding-left: 2rem;
+}
+
+.proyectos__propios-detalles{
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.proyectos__propios-detalles--boton{
+    width: 75%;
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.proyectos__propios-detalles--item{
+    height: calc(100% - 1rem);
+    margin: 0.5rem 0.25rem 0.5rem 0;
+    padding: 0;
+    width: calc(100% - 1rem);
+    border-color: rgba(3, 107, 252, 0.5);
+}
+
+.proyectos__propios-detalles--link{
+    display: inline-block;
+    width: 100%;
+    height: calc(100% - 0.75rem);
+    text-decoration: none;
+    color: #046AFC;
+    padding-top: 0.75rem;
+}
+
+.proximamente{
+    line-height: 100px;
+    text-align: center;
+}
 @media(max-width:768px) {
     .challengEncriptador {
         width: 100%;
