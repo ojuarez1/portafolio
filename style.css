@@ -41,4 +41,8 @@ body{
         margin: auto;
     }
 
+    .inicio__arrow{
+        bottom: 1rem;
+    }
+
 }
