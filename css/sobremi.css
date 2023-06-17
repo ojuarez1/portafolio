@@ -22,7 +22,7 @@
     padding-top: 1rem;
 }
 
-@media(max-width:468px){
+@media(max-width:768px) {
     .sobreMi__detalles {
         width: 100%
     }

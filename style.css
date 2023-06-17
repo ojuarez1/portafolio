@@ -22,14 +22,17 @@ body{
     position: sticky;
     bottom: 5px;
     width: 2rem;
-    left: 95%;
+    left: 97%;
     cursor: pointer;
     background-color: #00161C;
     border-radius: 5px;
 }
 
-::-webkit-img-title{
-    color: #000000;
+@media(max-width:768px){
+    .container {
+        width:calc(100% - 4rem);
+        margin: auto;
+    }
 }
 
 @media(max-width:468px){

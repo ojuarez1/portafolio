@@ -28,12 +28,18 @@
     font-weight: bold;
 }
 
-@media(max-width:468px){
+@media(max-width:768px){
     .hobbis__lista{
         flex-wrap: wrap;
     }
     .hobbis__lista .hobbis__lista-item {
         width: 25%;
-        flex-grow: 1;
+       
+    }
+}
+
+@media(max-width:468px) {
+    .hobbis__lista .hobbis__lista-item {
+        width: calc(50% - 2rem);
     }
 }

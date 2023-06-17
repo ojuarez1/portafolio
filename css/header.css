@@ -12,7 +12,6 @@
 
 .navegacion__menu {
     display: flex;
-    justify-content: center;
     width: 70%;
     justify-content: space-evenly;
     padding: 0;
@@ -35,6 +34,22 @@
     text-decoration: underline;
 }
 
+@media(max-width:768px) {
+    .navegacion__menu{
+        flex-wrap: wrap;
+        line-height:normal;
+        height: 10vh;
+        width: 100%;
+    }
+
+    .navegacion .menu__item{
+        width: 10%;
+        padding: 0.5rem;
+        align-self: center;
+        text-align: center;
+    }
+}
+
 @media(max-width:468px){
     .principal{
         position: static;
@@ -47,6 +62,12 @@
         align-items: center;
         height: auto;
         margin: auto;
+        line-height: 10vh;
+        flex-wrap: nowrap;
+    }
+
+    .navegacion .menu__item {
         width: 100%;
+        padding: 0;
     }
 }

@@ -33,18 +33,18 @@
     margin: 1.2rem;
 }
 
-@media(max-width:468px){
-    .habilidades{
+@media(max-width:768px){
+    .habilidades {
         height: auto;
     }
-    .habilidades__lenguajes-icons{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
     .habilidades-img {
         width: 25%;
         margin: 1.2rem;
+    }
+
+    .habilidades__lenguajes-icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }

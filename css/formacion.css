@@ -34,8 +34,11 @@
     font-size: 13px;
 }
 
-@media(max-width:468px){
-    .formacion__detalles-logo {
+@media(max-width:768px){
+    .formacion__detalles{
         width: 100%;
+    }
+    .formacion__detalles-logo {
+        width:100%;
     }
 }
