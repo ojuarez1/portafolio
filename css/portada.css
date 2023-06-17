@@ -2,6 +2,7 @@
     background-color: #00161C;
     display: flex;
     height:80vh;
+    font-family: 'Space Mono', monospace;
 }
 
 .portada__imagen {
@@ -20,7 +21,6 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
-    font-family: 'Roboto Slab', serif;
 }
 
 .portada__imagen-datos > p:last-child {

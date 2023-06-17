@@ -1,6 +1,5 @@
 .formacion{
     background-color: #e4eaf7;
-    padding: 3rem 0;
 }
 
 .formacion-borde{
@@ -14,7 +13,7 @@
 }
 
 .formacion__detalles-logo{
-    background-color: #ffffff;
+    background: #ffffff url("../img/alura.avif") no-repeat left / calc(100% - 0.35rem);
     width: 25vw;
     height: 40vh;
     padding: 0.1px;
