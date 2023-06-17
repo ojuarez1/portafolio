@@ -36,28 +36,22 @@
 }
 
 .proyectos__propios-detalles--boton{
-    width: 75%;
+    width: 70%;
     flex-grow: 1;
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.proyectos__propios-detalles--item{
-    height: calc(100% - 1rem);
-    margin: 0.5rem 0.25rem 0.5rem 0;
-    padding: 0;
-    width: calc(100% - 1rem);
-    border-color: rgba(3, 107, 252, 0.5);
-}
-
 .proyectos__propios-detalles--link{
-    display: inline-block;
-    width: 100%;
-    height: calc(100% - 0.75rem);
+    border:1px solid rgba(4, 106, 252, 0.5);
+    height: calc(100% - 4rem);
+    margin: 1rem 0.25rem 1rem 0;
+    flex-grow: 1;
+    padding: 1rem 0.25rem;
+    text-align: center;
     text-decoration: none;
-    color: #046AFC;
-    padding-top: 0.75rem;
+    color:#046AFC;
 }
 
 .proximamente{
