@@ -53,12 +53,6 @@
     text-align: center;
 }
 
-.portada__perfil-contenedor p {
-    width: 80%;
-    font-size: 0.75rem;
-    line-height: 1.5;
-}
-
 .perfil__imagen-logo {
     width: 150px;
 }
@@ -66,6 +60,10 @@
 .perfil__imagen-logo {
     border-radius: 50%;
     /*box-shadow: 10px 10px 30px rgb(8, 8, 8);*/
+}
+
+.portada__perfil-contenedor--cv{
+    
 }
 
 .portada__social {
