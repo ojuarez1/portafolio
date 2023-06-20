@@ -17,5 +17,5 @@
 <li style ="color:#D4AF37">
     Como contactarme.
 </li>
-
+<br>
 Este fue un proyecto solicitado por Oracle y Alura Latam, sin embargo será mi portafolio personal.
