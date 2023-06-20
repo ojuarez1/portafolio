@@ -168,12 +168,12 @@
                 <form action="" >
                   <legend class="contacto__formulario-legend">¿Quieres contactarme? <br> Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</legend>
                   <fieldset class="contacto__formulario-fieldset">
-                    <label class="contacto__formulario-fieldset--etiqueta" for="nombre">Nombre<input placeholder="Oscar Juarez" type="text" name="nombre" required></label>
-                    <label class="contacto__formulario-fieldset--etiqueta" for="correo">E-mail<input placeholder="oscarjuarez923@gmail.com" type="email" name="correo" required></label>
-                    <input type="text" placeholder="Asunto">
-                    <textarea class="contacto__formulario-fieldset--textarea" placeholder="Mensaje" cols="30" rows="10"></textarea>
+                    <label class="contacto__formulario-fieldset--etiqueta" for="nombre">Nombre<input placeholder="Oscar Juarez" type="text" name="nombre" data-form-name></label>
+                    <label class="contacto__formulario-fieldset--etiqueta" for="correo">E-mail<input placeholder="oscarjuarez923@gmail.com" type="email" name="correo" data-form-correo></label>
+                    <input type="text" placeholder="Asunto" data-form-asunto>
+                    <textarea class="contacto__formulario-fieldset--textarea" placeholder="Mensaje" cols="30" rows="10" data-form-mensaje></textarea>
                   </fieldset>
-                  <input class="contacto__formulario-enviar" type="submit">
+                  <input class="contacto__formulario-enviar" type="submit" data-form-btn>
                 </form>
               </div>
             </article>
@@ -189,7 +189,7 @@
             </article>
           </footer>
           <a class="menu__item-enlace" href="#inicio"><img class="inicio__arrow" src="img/arrow.svg" title="Inicio"></a>
-          
+          <script src="validar.js"></script>
         </main>
   </body>
 </html>

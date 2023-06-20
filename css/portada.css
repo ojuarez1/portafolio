@@ -107,9 +107,7 @@
     margin-left: 10px;
 }
 
-.portada__social-imagen:hover{
-    width:1.5rem;
-}
+
 
 @media(max-width:768px){
     .portada__imagen {
