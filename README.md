@@ -1,11 +1,21 @@
 # Portafolio
 
-Aqui encontrará todo lo relacionado sobre mi.
-. Habilidades.
-. Hobbis
-. Formacion academica
-. Proyectos y
-. Como contactarme.
+### Aqui encontrará todo lo relacionado sobre mi.
 
-Este fue un proyecto solicitado por Oracle y Alura Latam,
-sin embargo será mi portafolio personal.
+<li style ="color:#D4AF37">
+    Habilidades
+</li>
+<li style ="color:#D4AF37">
+    Hobbis
+</li>
+<li style ="color:#D4AF37">
+    Formacion academica
+</li>
+<li style ="color:#D4AF37">
+    Proyectos y
+</li>
+<li style ="color:#D4AF37">
+    Como contactarme.
+</li>
+
+Este fue un proyecto solicitado por Oracle y Alura Latam, sin embargo será mi portafolio personal.
