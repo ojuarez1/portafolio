@@ -4,7 +4,6 @@
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
-    height: 500px;
 }
 
 .titulo {
@@ -29,7 +28,7 @@
 }
 
 .habilidades-img {
-    width: 5%;
+    width: 12%;
     margin: 1.2rem;
 }
 
@@ -38,7 +37,6 @@
         height: auto;
     }
     .habilidades-img {
-        width: 25%;
         margin: 1.2rem;
     }
 
