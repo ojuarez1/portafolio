@@ -57,10 +57,6 @@
     color: #ffffff;
 }
 
-.proximamente{
-    line-height: 150px;
-    text-align: center;
-}
 @media(max-width:768px) {
     .challengEncriptador {
         width: 100%;

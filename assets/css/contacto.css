@@ -32,16 +32,13 @@
 }
 
 .contacto__formulario-fieldset--etiqueta{
-    background-color: #ffffff;
-    color:#046AFC;
     font-size: 12px;
-    
+    color:#046AFC;
 }
 
 .contacto__formulario-fieldset input{
     display: block;
     width: calc(100% - 1rem);
-    padding: 0.5rem;
     border: none;
     height: 1.5rem;
     outline: none;
@@ -51,6 +48,7 @@
     border: none;
     padding: 0.5rem;
     outline: none;
+    width: calc(100% - 1rem);
 }
 
 .contacto__formulario-enviar{
@@ -69,6 +67,20 @@
 .contacto__formulario-enviar:hover{
     background-color: #052858;
     transform: scale(1.2);
+}
+
+.contacto__container .contacto__container-span{
+    color:red;
+    font-size: 0.75rem;
+}
+
+.contacto__container--fondo{
+    background-color: #ffffff;
+    padding: 0.5rem;
+}
+
+.contacto__container-span{
+    display: none;
 }
 
 @media(max-width:768px) {
