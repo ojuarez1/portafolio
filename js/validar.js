@@ -1,4 +1,21 @@
-const btn = document.querySelector("[data-form-btn]");
+const inputs = document.querySelectorAll(".input");
+
+
+inputs.forEach((input) => {
+    input.addEventListener("blur", (evento) => {
+        validar(evento.target)
+    })
+})
+
+const validar = (input) => {
+    const tipoInput = input.dataset.tipo;
+    if (!input.validity.valid) {
+        input.parentElement.classList.add("contacto__container");
+    } else {
+        input.parentElement.classList.remove("contacto__container");
+    }
+}
+/* const btn = document.querySelector("[data-form-btn]");
 const error = document.querySelector("[data-form-error]");
 error.style.color = "red";
 
@@ -58,5 +75,5 @@ btn.addEventListener("click", (evento) => {
         inputAsunto.value = "";
         inputMensaje.value = "";
     }
-});
+}); */
 

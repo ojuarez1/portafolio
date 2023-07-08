@@ -72,6 +72,7 @@
 .contacto__container .contacto__container-span{
     color:red;
     font-size: 0.75rem;
+    display: block;
 }
 
 .contacto__container--fondo{

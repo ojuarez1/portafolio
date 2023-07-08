@@ -170,32 +170,27 @@
                 <h2>Contacto</h2>
                 <form action="" >
                   <legend class="contacto__formulario-legend">¿Quieres contactarme? <br> Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</legend>
-                  <div class="contacto__formulario-fieldset">
+                  <div class="contacto__formulario-fieldset">                    
+                    <div class="contacto__container--fondo">
+                      <label class="contacto__formulario-fieldset--etiqueta" for="nombre">Nombre</label>
+                      <input class="input" placeholder="Oscar Juarez" type="text" name="nombre" data-tipo = "nombre" required autocomplete="off">
+                      <span class="contacto__container-span">Este campo no debe estar vacio</span>
+                    </div>                  
+                    <div class="contacto__container--fondo">
+                      <label class="contacto__formulario-fieldset--etiqueta" for="correo">E-mail</label>
+                      <input class="input" placeholder="oscarjuarez923@gmail.com" type="email" name="correo" data-tipo = "correo" required autocomplete="off">
+                      <span class="contacto__container-span">Este campo no debe estar vacio</span>
+                    </div>                 
                     <div>
-                      <div class="contacto__container--fondo">
-                        <label class="contacto__formulario-fieldset--etiqueta" for="nombre">Nombre</label>
-                        <input placeholder="Oscar Juarez" type="text" name="nombre" data-form-name>
-                      </div>
+                      <input class="contacto__container--fondo input" type="text" placeholder="Asunto" data-tipo = "asunto" required autocomplete="off">
                       <span class="contacto__container-span">Este campo no debe estar vacio</span>
                     </div>
                     <div>
-                      <div class="contacto__container--fondo">
-                        <label class="contacto__formulario-fieldset--etiqueta" for="correo">E-mail</label>
-                        <input placeholder="oscarjuarez923@gmail.com" type="email" name="correo" data-form-correo>
-                      </div>
-                      <span class="contacto__container-span">Este campo no debe estar vacio</span>
-                    </div>
-                    <div>
-                      <input class="contacto__container--fondo" type="text" placeholder="Asunto" data-form-asunto>
-                      <span class="contacto__container-span">Este campo no debe estar vacio</span>
-                    </div>
-                    <div>
-                      <textarea class="contacto__formulario-fieldset--textarea" placeholder="Mensaje" cols="30" rows="10" data-form-mensaje></textarea>
+                      <textarea class="contacto__formulario-fieldset--textarea input" placeholder="Mensaje" cols="30" rows="10" data-tipo = "mensaje" required></textarea>
                       <span class="contacto__container-span">Este campo no debe estar vacio</span>
                     </div>
                   </div>
                   <button class="contacto__formulario-enviar" type="submit" data-form-btn>Enviar</button>
-
                 </form>
               </div>
             </article>
