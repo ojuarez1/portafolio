@@ -95,4 +95,9 @@
     .titulo{
         font-size: 1.2rem;
     }
+
+    .slider{
+        width: 60%;
+        height:30vh;
+    }
 }

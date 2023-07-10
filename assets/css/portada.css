@@ -133,6 +133,7 @@
 
 @media(max-width:468px){
     .portada{
+        background-color: #ffffff;
         flex-direction: column;
     }
 
@@ -153,10 +154,22 @@
         width: 100%;
         height: calc(100% - 4rem);
         padding: 2rem 0;
+        color:#000000;
+        
+    }
+
+    .portada__imagen-datos{
+        color: #000000;
+        font-weight: normal;
     }
 
     .portada__perfil-contenedor h3 {
         display: block;
+    }
+
+    .portada__perfil-contenedor--ul{
+        padding: 1rem;
+        font-size: 0.85rem;
     }
 
 }

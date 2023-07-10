@@ -6,7 +6,6 @@
 
 .navegacion {
     height: 10vh;
-    /*display: flex;*/
     align-items: center;
 }
 
@@ -52,22 +51,21 @@
 
 @media(max-width:468px){
     .principal{
-        position: static;
+        
     }
     .navegacion{
         height: auto;
     }
     .navegacion__menu{
-        flex-direction: column;
         align-items: center;
         height: auto;
         margin: auto;
         line-height: 10vh;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
 
     .navegacion .menu__item {
-        width: 100%;
         padding: 0;
+        width: 6rem;
     }
 }
