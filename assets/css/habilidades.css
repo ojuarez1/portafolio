@@ -27,7 +27,46 @@
     padding-bottom: 5px;
 }
 
-.habilidades-img {
+.slider{
+    background-image: url("../img/html5-original.svg");
+    background-size: cover;
+    width: 10vw;
+    height: 21vh;
+    margin: auto;
+    animation: mover 20s infinite;
+}
+
+@keyframes mover {
+    10% {
+        background-image: url("../img/css3-original.svg");
+
+    }
+
+    30% {
+        background-image: url("../img/javascript-original.svg");
+    }
+
+    45% {
+        background-image: url("../img/react-original.svg");
+    }
+
+    60% {
+        background-image: url("../img/bootstrap-original.svg");
+    }
+
+    75% {
+        background-image: url("../img/figma-original.svg");
+    }
+
+    90% {
+        background-image: url("../img/git-original.svg");
+    }
+
+    100% {
+        background-image: url("../img/html5-original.svg");
+    }
+}
+/* .habilidades-img {
     width: 12%;
     margin: 1.2rem;
     transition: all 0.5s ease-in-out;
@@ -35,7 +74,7 @@
 
 .habilidades-img:hover {
     transform: scale(1.2);
-}
+} */
 
 @media(max-width:768px){
     .habilidades {

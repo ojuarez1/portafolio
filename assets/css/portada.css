@@ -49,15 +49,24 @@
     justify-content: space-between;
     padding: 2rem 1rem;
     color: #ffffff;
-    line-height: 2;
-    font-size: 0.75rem;
+    line-height: 1.5;
+}
+
+.portada__perfil-contenedor li{
+    width: fit-content;
+    margin: auto;
+    list-style: none;
+    
+}
+
+.portada__perfil-contenedor li:before{
+    content: "✧ ";
 }
 
 .perfil__imagen-logo {
     width: 150px;
     margin: auto;
     border-radius: 50%;
-    /*box-shadow: 10px 10px 30px rgb(8, 8, 8);*/
 }
 
 .portada__perfil-contenedor a{

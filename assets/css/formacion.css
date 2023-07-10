@@ -19,7 +19,6 @@
 .formacion__detalles-logo{
     /*background: #ffffff url("../img/alura.avif") no-repeat left / calc(100% - 0.35rem);*/
     width: 18rem;
-    height: 14rem;
     background-color: #ffffff;
     text-align: center;
     box-sizing: border-box;
