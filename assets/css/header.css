@@ -25,13 +25,12 @@
     flex-flow: column nowrap;
     justify-content: space-evenly;
     width: 100%;
-    padding-left: 0.5rem;
     height: 100%;
 }
 
 .menu__item {
     list-style: none;
-    width: fit-content;
+    text-align: center;
 }
 
 .menu__enlace {
@@ -46,22 +45,17 @@
 }
 
 @media(max-width:768px) {
-    .menu__navegacion{
-        flex-wrap: wrap;
-        line-height:normal;
-        height: 10vh;
-        width: 100%;
-    }
-
-    .menu__item{
-        width: 10%;
-        padding: 0.5rem;
-        align-self: center;
-        text-align: center;
+    .cabecera{
+        width: 30%;
+        height: 50vh;
     }
 }
 
 @media(max-width:468px){
+    .cabecera {
+        width: 40%;
+        height: 60vh
+    }
     .navegacion{
         height: auto;
     }

@@ -51,41 +51,34 @@
 }
 
 @media(max-width:768px) {
-    .challengEncriptador {
+    .proyectos__encriptador, .proyectos__alurageek {
+        flex-wrap: wrap;
+    }
+
+    .proyectos__encriptador-imagen,
+    .proyectos__alurageek-imagen{
         width: 100%;
     }
 
-    .proyectos__propios-contenedor{
-        flex-direction: column;
+    .proyectos__encriptador-detalles {
+        margin:1rem 0 0 0;
     }
 
-    .proyectos__propios-encriptador,
-    .proyectos__propios-alurageek {
-        width: 100%;
-        order: -1;
-    }
-
-    .proyectos__propios-detalles{
-        width: 50%;
-        align-self: flex-start;
+    .proyectos__alurageek-detalles {
+        order: 0;
+        text-align: start;
         margin-top: 1rem;
-        padding-left: 0;
     }
 
-    .proyectos__propios-detalles--link {
-       padding: 1.2rem 0 0 0;
+    .proyectos__alurageek-detallesBtn {
+        margin-left: 0;
+        margin-right: 1rem;
     }
 }
 
 @media(max-width:468px){
-    .proyectos__propios-detalles--link {
-        height: calc(100% - 2rem);
-        padding: 0.6rem;
-    }
-
-    .proyectos__propios-detalles{
-        height: calc(100% - 2rem);
-        width: 75%;
-        padding-left: 0;
+    .proyectos__alurageek-detallesBtn, .proyectos__encriptador-detallesBtn {
+        padding: 0.5rem;
+        width: 6rem;
     }
 }

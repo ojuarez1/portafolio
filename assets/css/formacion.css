@@ -16,12 +16,11 @@
     box-sizing: border-box;
     height: 40vh;
     width: 20vw;
-    min-width: 275px;
     position: relative;
 }
 
 .formacion__detalles-logo img{
-    width: 90%;
+    width: 18vw;
     position: absolute;
     top:50%;
     left:50%;
@@ -37,13 +36,34 @@
     font-size: 13px;
 }
 
+@media(max-width:1024px) {
+    .formacion__detalles-logo {
+        height: 30vh;
+    }
+}
+
+@media(max-width:768px){
+    .formacion__detalles-logo{
+        height: 20vh;
+    }
+}
+
 @media(max-width:468px){
+    .formacion__detalles {
+        width: 90%;
+    }
     .formacion__container{
         flex-direction: column;
-        width: 100%;
+        width: 70%;
+        margin: auto;
     }
 
-    .formacion__detalles-logo{
-        margin: 1rem 0 0.5rem 0;
+    .formacion__detalles-logo {
+        width: 100%;
+        height: 30vh;
+    }
+    
+    .formacion__detalles-logo img{
+        width: 70%;
     }
 }

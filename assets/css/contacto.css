@@ -4,7 +4,6 @@
 
 .contacto{
     display: flex;
-    min-width: 900px;
 }
 
 .contacto__formulario{
@@ -123,11 +122,18 @@
     text-decoration: none;
 }
 
-@media(max-width:768px) {
-    .contacto__telefono{
-        display: none;
-    }
+@media(max-width:1024px){
+    .contacto__telefono {
+            display: none;
+        }
 
+        .contacto__formulario {
+            width: 65%;
+            margin: auto;
+        }
+}
+
+@media(max-width:768px) {
     .contacto__formulario{
         padding: 0;
         width: 100%;
