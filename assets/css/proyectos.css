@@ -1,59 +1,53 @@
-.proyectos .titulo{
-    width: fit-content;
-    margin: 0 auto 2rem;
+.proyectos__encriptador, .proyectos__alurageek {
+    display: flex;
+    padding: 2rem;
 }
 
-.proyectos__propios{
-    padding-bottom: 4rem;
-}
-
-.proyectos__propios-encriptador, .proyectos__propios-alurageek{
+.proyectos__encriptador-imagen, .proyectos__alurageek-imagen {
     width: 60%;
     background-color: #f8f2f2;
+    box-shadow: 0 5px 10px #00000030;
 }
 
-.proyectos__propios-encriptador--img{
+.proyectos__encriptador-img, .proyectos__alurageek-img {
     display: block;
-    width: 90%;
-    margin: auto;
+    width: 95%;
+    margin: 0.5rem auto;
 }
 
-.proyectos__propios-contenedor{
-    display: flex;
-}
-
-.proyectos__propios-detalles{
-    display: flex;
-    flex-direction: column;
-    height: 20vh;
-    justify-content: space-around;
+.proyectos__encriptador-detalles{
     flex-grow: 1;
     align-self: center;
-    padding-left: 2rem;
+    margin-left: 2rem;
 }
 
-.proyectos__propios-detalles--boton{
-    width: 70%;
-    flex-grow: 1;
-    height: 100%;
-    display: flex;
-    align-items: center;
+.proyectos__encriptador-detallesBtn, .proyectos__alurageek-detallesBtn{
+    width: 8rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    margin: 1rem 1rem 0 0;
+    border:1px solid #046AFC;
+    cursor: pointer;
 }
 
-.proyectos__propios-detalles--link{
-    border:1px solid rgba(4, 106, 252, 0.5);
-    margin: 1rem 0.25rem 1rem 0;
-    flex-grow: 1;
-    padding: 1rem 0.25rem;
-    text-align: center;
-    text-decoration: none;
-    color:#046AFC;
-    display: block;
-}
-
-.proyectos__propios-detalles--link:hover {
+.proyectos__encriptador-detallesBtn:hover, .proyectos__alurageek-detallesBtn:hover{
     background-color: #046AFC;
-    color: #ffffff;
+    color:#ffffff;
+}
+
+.proyectos__alurageek-detalles{
+    order:-1;
+    flex-grow: 1;
+    align-self: center;
+    width: 40%;
+    box-sizing: border-box;
+    text-align: end;
+    margin-right: 2rem;
+}
+
+.proyectos__alurageek-detallesBtn{
+    margin-right:0 ;
+    margin-left: 1rem;
 }
 
 @media(max-width:768px) {

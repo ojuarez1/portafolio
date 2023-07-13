@@ -2,47 +2,38 @@
     background-color: #e4eaf7;
 }
 
-.formacion-borde{
-    width: fit-content;
-    margin: 0 auto 2rem;
-}
-
 .formacion__container{
     display: flex;
 }
+
 .formacion__detalles {
-    width: fit-content;
-    margin: auto;
-    
+    margin: 0 auto;
 }
 
 .formacion__detalles-logo{
-    /*background: #ffffff url("../img/alura.avif") no-repeat left / calc(100% - 0.35rem);*/
-    width: 18rem;
     background-color: #ffffff;
     text-align: center;
     box-sizing: border-box;
+    height: 40vh;
+    width: 20vw;
+    min-width: 275px;
+    position: relative;
 }
 
 .formacion__detalles-logo img{
-    width: 74%;
+    width: 90%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 
-.formacion__detalles-img{
-    padding: 3rem 0;
-    
-}
-
-.formacion__detalles-imagen {
-    padding-top: 0.75rem;
-
-}
 .formacion__detalles-titulo{
     font-size: 13px;
     padding: 0.25rem 0 0.25rem 0;
 }
 
-.formacion__detalles-texto{
+.formacion__detalles-anho{
     font-size: 13px;
 }
 

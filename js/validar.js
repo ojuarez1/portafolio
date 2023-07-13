@@ -1,79 +1,58 @@
 const inputs = document.querySelectorAll(".input");
+const contenedor = document.querySelector("[data-contenedor]")
 
-
-inputs.forEach((input) => {
-    input.addEventListener("blur", (evento) => {
-        validar(evento.target)
-    })
+inputs.forEach(input =>{
+  input.addEventListener("blur", (evento)=>{
+    validar(evento.target);
+  })
 })
 
-const validar = (input) => {
-    const tipoInput = input.dataset.tipo;
-    if (!input.validity.valid) {
-        input.parentElement.classList.add("contacto__container");
-    } else {
-        input.parentElement.classList.remove("contacto__container");
-    }
+const validar = (input) =>{
+  const tipoDeInput = input.dataset.tipo;
+  
+  if (!input.validity.valid){
+    input.parentElement.classList.add("contenedorError");
+    input.parentElement.querySelector(".span").innerHTML = mostrarErrores(tipoDeInput, input);
+    console.log(input)
+  }else{
+    input.parentElement.classList.remove("contenedorError");
+    input.parentElement.querySelector(".span").innerHTML = "";
+  }
 }
-/* const btn = document.querySelector("[data-form-btn]");
-const error = document.querySelector("[data-form-error]");
-error.style.color = "red";
 
-btn.addEventListener("click", (evento) => {
-    evento.preventDefault();
-    const mensajeError = [];
-    const inputNombre = document.querySelector("[data-form-name]");
-    const nombre = inputNombre.value;
-    const inputCorreo = document.querySelector("[data-form-correo]");
-    const correo = inputCorreo.value;
-    const inputAsunto = document.querySelector("[data-form-asunto]");
-    const asunto = inputAsunto.value;
-    const inputMensaje = document.querySelector("[data-form-mensaje]");
-    const mensaje = inputMensaje.value;
-    if (nombre != "") {
-        if (nombre.length < 50) {
-            if (correo != "") {
-                if (correo.indexOf(".") >= 0) {
-                    if (correo.indexOf("@") >= 0){
-                        if (asunto != "") {
-                            if (asunto.length < 50){
-                                if (mensaje != "") {
-                                    if (mensaje.length < 300){
-                                        alert("Mensaje enviado")                    
-                                    } else {
-                                        mensajeError.push("¡El campo mensaje no debe contener mas de 300 caractéres!")
-                                    }
-                                } else {
-                                    mensajeError.push("¡Es necesario llenar el campo 'Mensaje'!")                                    
-                                }
-                            } else {
-                                mensajeError.push("¡El campo asunto no debe contener mas de 50 caractéres!")
-                            }
-                        } else {
-                            mensajeError.push("¡Es necesario llenar el campo 'Asunto'!");                            
-                        }
-                    } else {
-                        mensajeError.push("¡El correo debe incluir el signo '@', 'ejemplo: texto@texto.com'!")
-                    }
-                } else {
-                    mensajeError.push("¡El correo debe incluir al menos un punto (.), 'ejemplo: texto@texto.com'!")
-                }
-            } else {
-                mensajeError.push("¡Es necesario llenar el campo 'E-mail'!")
-            }
-            
-        } else {
-            mensajeError.push("¡El campo nombre no debe tener mas de 50 caracteres!")
-        }
-    } else {
-        mensajeError.push("¡Es necesario llenar el campo 'Nombre'!")
-    }
-    error.innerHTML = mensajeError;
-    if(mensajeError == ""){
-        inputNombre.value = "";
-        inputCorreo.value = "";
-        inputAsunto.value = "";
-        inputMensaje.value = "";
-    }
-}); */
+const mensajeErrores ={
+    nombre:{
+        valueMissing: "El campo Nombre no puede estar vacio",
+        patternMismatch:"El campo Nombre no debe tener mas de 50 caracteres"
+    },
+    email:{
+      valueMissing:"El campo Correo no puede estar vacio",
+      typeMismatch:"Debe contener el signo @ y al menos un punto (.)"
+    },
+    asunto:{
+        valueMissing: "El campo Asunto no puede estar vacio",
+        patternMismatch:"El campo Asunto no debe tener mas de 50 caracteres"
+    },
 
+    mensaje: {
+        valueMissing: "El campo Mensaje no puede estar vacio",
+        patternMismatch:"El campo Nombre no debe tener mas de 300 caracteres"
+    }
+    
+ }
+
+const listaErrores =[
+  "valueMissing",
+  "typeMismatch",
+  "patternMismatch"
+]
+
+const mostrarErrores = (tipoDeInput, input) => {
+  let mensaje = "";
+  listaErrores.forEach(error => {
+    if(input.validity[error]){
+      mensaje = mensajeErrores[tipoDeInput][error];
+    }
+  })
+  return mensaje
+}

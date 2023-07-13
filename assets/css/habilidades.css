@@ -10,71 +10,30 @@
     text-align: center;
     border-bottom: 1px solid #000000;
     padding-bottom: 5px;
+    width: fit-content;
+    margin: 0 auto 2rem;
 }
 
-.habilidades__parrafo {
+.habilidades__titulo {
     margin: 1.5rem;
 }
 
-.habilidades__frameHerra {
-    width: 100%;
-}
-
-.habilidades-titulo {
-    color: #1d90dd;
+.habilidades-titulos {
     display: inline-block;
-    border-bottom: 1px solid #1d90dd;
     padding-bottom: 5px;
+    color: #969595;
 }
 
-.slider{
-    background-image: url("../img/html5-original.svg");
-    background-size: cover;
-    width: 10vw;
-    height: 21vh;
-    margin: auto;
-    animation: mover 20s infinite;
-}
-
-@keyframes mover {
-    10% {
-        background-image: url("../img/css3-original.svg");
-
-    }
-
-    30% {
-        background-image: url("../img/javascript-original.svg");
-    }
-
-    45% {
-        background-image: url("../img/react-original.svg");
-    }
-
-    60% {
-        background-image: url("../img/bootstrap-original.svg");
-    }
-
-    75% {
-        background-image: url("../img/figma-original.svg");
-    }
-
-    90% {
-        background-image: url("../img/git-original.svg");
-    }
-
-    100% {
-        background-image: url("../img/html5-original.svg");
-    }
-}
-/* .habilidades-img {
-    width: 12%;
+.habilidades__icon {
+    width: 5%;
     margin: 1.2rem;
+    min-width: 75px;
     transition: all 0.5s ease-in-out;
 }
 
-.habilidades-img:hover {
+.habilidades__icon:hover {
     transform: scale(1.2);
-} */
+}
 
 @media(max-width:768px){
     .habilidades {

@@ -3,27 +3,22 @@
 
 }
 
-.sobreMi__detalles {
+.sobreMi__descripcion {
     width: 50%;
 }
 
-.sobreMi h2 {
+.sobreMi__titulo {
     display: inline-block;
     border-bottom: 1px solid #000000;
     padding-bottom: 5px;
 }
 
-.sobreMi p {
+.sobreMi__parrafo {
     padding: 10px 0 10px 0;
 }
 
-.sobreMi__detalles img {
-    width: 200px;
-    padding-top: 1rem;
-}
-
 @media(max-width:768px) {
-    .sobreMi__detalles {
+    .sobreMi__descripcion {
         width: 100%
     }
 }
