@@ -89,7 +89,7 @@
 
 .formulario-btn:hover{
     background-color: #052858;
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 .contenedorError .span {
