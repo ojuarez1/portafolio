@@ -80,5 +80,16 @@
     .proyectos__alurageek-detallesBtn, .proyectos__encriptador-detallesBtn {
         padding: 0.5rem;
         width: 6rem;
+        
+    }
+
+    .proyectos__alurageek-detalles, .proyectos__encriptador-detalles{
+        margin-right: 0;
+    }
+
+    .proyectos__alurageek-detalles a, .proyectos__encriptador-detalles a {
+        display: inline-block;
+        width: 6rem;
+        margin-right: 1rem;
     }
 }

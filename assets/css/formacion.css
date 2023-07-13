@@ -51,7 +51,9 @@
 @media(max-width:468px){
     .formacion__detalles {
         width: 90%;
+        margin-bottom: 1rem;
     }
+
     .formacion__container{
         flex-direction: column;
         width: 70%;
